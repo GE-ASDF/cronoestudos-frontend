@@ -4,10 +4,10 @@
     font-weight: bold;
     font-size: 24px;
 }
-#pg-login input{
+#pg-login .form-control{
     border-bottom:1px solid rgb(186, 185, 185);
 }
-#pg-login input:focus{
+#pg-login input.form-control:focus{
     background-color: rgb(216, 209, 209);
 }
 #pg-login i, span{
