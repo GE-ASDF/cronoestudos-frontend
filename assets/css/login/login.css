@@ -1,19 +1,15 @@
 #pg-login label{
-    color:#fff;
+    color:rgb(216, 209, 209);
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 24px;
 }
 #pg-login input{
-    border:none;
-    outline: none;
-    color:#fff;
-}
-#pg-login input{
+    border: noen;
     border-bottom:1px solid rgb(186, 185, 185);
 }
 #pg-login input:focus{
-    background-color: #fff;
+    background-color: rgb(216, 209, 209);
 }
 #pg-login i, span{
     color:#fff;
@@ -38,7 +34,8 @@
     flex-direction: column;
     align-items: center;
 }
-.login-form{
+
+#pg-login .login-form{
     display: grid;
     grid-template-columns: 300px 1fr;
     justify-content: center;
@@ -50,7 +47,7 @@
     box-shadow: 2px 2px 2px #1b1717;
 }
 
-.login-form form{
+#pg-login .login-form form{
     background-color: rgb(46, 45, 45);
     padding:10px;
     border-radius: 20px;
@@ -59,19 +56,13 @@
     flex-direction: column;
     justify-content: center;
 }
-.form-item{
+#pg-login .form-item{
     display: flex;
     flex-direction: column;
 }
-.form-item label{
-    font-size: 32px;
-    color:#232323;
-    text-shadow: 0.4px 0.4px 0.3px #000;
-}
 
-.login-form .form-control{
+#pg-login .login-form .form-control{
     font-size: 20px;
     padding:4px;
     background-color: transparent;
-    border:1px solid rgb(98, 98, 98);
 }

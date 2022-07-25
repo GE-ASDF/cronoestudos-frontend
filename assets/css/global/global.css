@@ -30,6 +30,11 @@ img{
 form{
     width: 100%;
 }
+input{
+    border:none;
+    outline: none;
+    color:#fff;
+}
 label{
     margin-top:20px;
 }
